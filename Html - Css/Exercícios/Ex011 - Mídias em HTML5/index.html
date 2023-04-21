@@ -16,5 +16,15 @@
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="Imagens/foto-g.png" alt="Iamgem flexível">
     </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+        <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+        <!-- <audio src="midia/A Dois Passos Do Paraíso.mp3" controls autoplay></audio> -->
+        <audio preload="auto" controls>
+            <source src="midia/A Dois Passos Do Paraíso.mp3" type="audio/mp3">
+            <source src="midia/A Dois Passos Do Paraíso.ogg" type="audio/ogg">
+            <source src="midia/A Dois Passos Do Paraíso.wav" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzeir áuido. <a href="midia/A Dois Passos Do Paraíso.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+        </audio>
 </body>
 </html>

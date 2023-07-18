@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(122, 122, 122);
+            padding: 3px;
+            text-align: center;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            /* margin-right: 30px; */
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(160, 160, 160);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde iste quis, modi quas reiciendis nulla molestiae at ipsum! Dolore cumque voluptas eaque, dolorum itaque quia omnis sit quod ab.</p>
+                    <aside>Artigo escrito por José da Silva</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Melkysedeke</p>
+    </footer>
+</body>
+</html>

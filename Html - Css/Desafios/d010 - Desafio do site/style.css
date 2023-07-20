@@ -1,0 +1,157 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+header {
+    background-image: linear-gradient(to bottom, aquamarine, green);
+    text-align: center;
+}
+
+header > h1 {
+    margin: 0;
+    padding: 20px 20px 7px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.582);
+   
+}
+
+header > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: x-small;
+    width: 400px;
+    margin: auto;
+    padding-bottom: 22px;
+}
+
+header > nav {
+    padding: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 0px 10px;
+}
+
+header > nav > a:hover {
+    background-color: rgb(0, 110, 0);
+    border: 8px solid rgb(0, 110, 0);
+    margin: 0px 2px;
+    border-radius: 7px;
+}
+
+main {
+    background-color: white;
+    width: 72%;
+    margin: auto;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.438);
+    border-radius: 0 0 10px 10px;
+}
+
+main > h1 {
+    margin: 0px 7px;
+    padding: 10px;
+    font-family: 'android';
+    font-size: 25px;
+    color: green;
+}
+
+main > h2 {
+    margin: 10px 17px;
+    font-family: 'android';
+    font-size: 20px;
+    background-image: linear-gradient(to right,aquamarine, white);
+    color: green;
+}
+
+.paragraph {
+    margin: 0px 17px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font: bold 17px Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+}
+
+#video {
+    background-color: green;
+}
+
+#extra {
+    background-color: aquamarine;
+    margin: 23px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+#extra > h1 {
+    background-color: mediumseagreen;
+    margin-left: 0px;
+    padding: 9px 15px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    font: 18px Arial, Helvetica, sans-serif;
+}
+
+#list {
+    display: flex;
+    margin-bottom: 17px;
+}
+
+ul {
+    display: inline-block ;
+    width: 45%;
+    margin: 0px;
+    list-style-image: url();
+}
+
+li {
+    font: bold medium Arial, Helvetica, sans-serif;
+
+}
+
+footer {
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+    font: lighter Arial, Helvetica, sans-serif;
+}
+
+footer > p {
+    margin-bottom: 0;
+    padding: 7px 0px;
+}
+
+span {
+    color: green;
+    text-shadow: 0px 0px 1px green;
+    font: bold 17px Arial, Helvetica, sans-serif;
+}
+
+.link {
+    color: green;
+    text-shadow: 0px 0px 1px green;
+    font: bold 17px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.link::after {
+    content: ' &';
+}

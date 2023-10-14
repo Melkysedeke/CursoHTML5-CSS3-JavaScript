@@ -4,20 +4,26 @@
 
 /* Typical Device Breakpoints
 
-Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 600px) {}
+Extra small devices (phones, 375px and down)
+@media only screen and (max-width: 375px) {}
 
-Small devices (portrait tablets and large phones, 600px and up)
-@media only screen and (min-width: 600px) {}
+Extra small devices (phones, 667px and down)
+@media only screen and (max-width: 667px) {}
 
-Medium devices (landscape tablets, 768px and up)
+Small devices (portrait tablets and large phones, 768px and up)
 @media only screen and (min-width: 768px) {}
 
-Large devices (laptops/desktops, 992px and up)
-@media only screen and (min-width: 992px) {}
+Medium devices (landscape tablets, 1024px and up)
+@media only screen and (min-width: 1024px) {}
 
-Extra large devices (large laptops and desktops, 1200px and up)
-@media only screen and (min-width: 1200px) {} 
+Large devices (laptops/desktops, 1280px and up)
+@media only screen and (min-width: 1280px) {}
+
+Extra large devices (large laptops and desktops, 1920px and up)
+@media only screen and (min-width: 1920px) {} 
+
+Extra Extra large devices (tv, 3840px and up)
+@media only screen and (min-width: 3840px) {}
 
 */
 
@@ -52,7 +58,7 @@ Extra large devices (large laptops and desktops, 1200px and up)
     #tv {display: none;}
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) { /* Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px) { /* Tablet*/
     body {
         background-image: url(../imagens/back-tablet.jpg);
     }
@@ -63,7 +69,7 @@ Extra large devices (large laptops and desktops, 1200px and up)
     #tv {display: none;}
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) { /* Desktop*/
+@media screen and (min-width: 1024px) and (max-width: 1980px) { /* Desktop*/
     body {
         background-image: url(../imagens/back-pc.jpg);
     }
@@ -74,7 +80,7 @@ Extra large devices (large laptops and desktops, 1200px and up)
     #tv {display: none;}
 }
 
-@media screen and (min-width: 1200px) { /* Grandes telas*/
+@media screen and (min-width: 1980px) { /* Grandes telas*/
     body {
         background-image: url(../imagens/back-tv.jpg);
     }

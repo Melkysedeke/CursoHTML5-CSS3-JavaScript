@@ -4,26 +4,13 @@
 
 /* Typical Device Breakpoints
 
-Extra small devices (phones, 375px and down)
-@media only screen and (max-width: 375px) {}
-
-Extra small devices (phones, 667px and down)
-@media only screen and (max-width: 667px) {}
-
-Small devices (portrait tablets and large phones, 768px and up)
-@media only screen and (min-width: 768px) {}
-
-Medium devices (landscape tablets, 1024px and up)
-@media only screen and (min-width: 1024px) {}
-
-Large devices (laptops/desktops, 1280px and up)
-@media only screen and (min-width: 1280px) {}
-
-Extra large devices (large laptops and desktops, 1920px and up)
-@media only screen and (min-width: 1920px) {} 
-
-Extra Extra large devices (tv, 3840px and up)
-@media only screen and (min-width: 3840px) {}
+Celular (Retrato): de 320px a 414px
+Celular (Paisagem): de 568px a 812px
+Tablet (Retrato): de 768px a 834px
+Tablet (Paisagem): de 1024px a 1112px
+Laptop/Notebook: geralmente acima de 1200px
+Desktop: geralmente acima de 1200px
+TV: geralmente acima de 3840px
 
 */
 

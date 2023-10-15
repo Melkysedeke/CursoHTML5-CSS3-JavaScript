@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Celular (Retrato): de 320px a 414px
+Celular (Paisagem): de 568px a 812px
+Tablet (Retrato): de 768px a 834px
+Tablet (Paisagem): de 1024px a 1112px
+Laptop/Notebook: geralmente acima de 1200px
+Desktop: geralmente acima de 1200px
+TV: geralmente acima de 3840px */
+
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+
+    menu{
+        display: block;
+        text-align: center;
+    }
+
+    menu li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}

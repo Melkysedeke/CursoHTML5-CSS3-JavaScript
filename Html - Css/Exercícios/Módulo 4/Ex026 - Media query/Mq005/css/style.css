@@ -37,6 +37,7 @@ menu {
     display: none;
     transition-property: display;
     transition-duration: 0.5s;
+    transition-timing-function: ease-in;
 }
 
 menu > ul {
@@ -58,7 +59,7 @@ menu a:hover {
 }
 
 main {
-    width: 90vw;
+    width: 90%;
     background-color: white;
     margin: auto;
     margin-top: 10px;

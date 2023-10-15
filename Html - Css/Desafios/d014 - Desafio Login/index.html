@@ -19,12 +19,14 @@
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
+                        <label for="ilogin">E-mail</label>
                         <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
-                        <label for="ilogin"><i class="fa-solid fa-envelope"></i></label>
+                        <i class="fa-solid fa-envelope"></i>
                     </div>
                     <div class="campo">
+                        <label for="isenha">Senha</label>
                         <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
-                        <label for="isenha"><i class="fa-solid fa-key"></i></label>
+                        <i class="fa-solid fa-key"></i>
                     </div>
                     <input type="submit" value="Entrar">
                     <a href="esqueci.html" class="botao">Esqueci a senha </a>

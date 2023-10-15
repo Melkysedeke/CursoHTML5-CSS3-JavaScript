@@ -29,14 +29,14 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 530px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-
+    
+    transform: translate(-50%,-50%);
     transition: width .2s, height .2s;
     transition-timing-function: ease;
 }
@@ -58,16 +58,33 @@ main {
     margin-bottom: 10px;
 }
 
-i {
-    color: #09b0da;
+.campo {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
-.campo {
-    display: block;
-    height: 30px;
+.campo > input {
+    height: 25px;
+    width: 100%;
+    border-radius: 8px;
+    margin: 0px;
+    padding: 3px;
+    padding-left: 6px;
+}
+
+label {
+    display: none;
+}
+
+i {
+    color: #09b0da;
+    margin-left: 5px;
 }
 
 input[type=submit] {
+    margin-top: 15px;
     display: block;
     font-size: 1em;
     width: 100%;
@@ -96,5 +113,10 @@ form > a {
 }
 
 form > a:hover {
-background-color:whitesmoke;
+    background-color:whitesmoke;
+}
+
+#formulario > p {
+    font-size: 1em;
+    margin: 20px 0px;
 }
